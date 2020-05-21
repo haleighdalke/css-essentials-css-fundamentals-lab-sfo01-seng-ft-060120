@@ -5,13 +5,36 @@ body {
 }
 
 header {
-  align-content: center;
+  text-align: center;
 }
 
 img {
-  align-self: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#featured-property {
-  align: center;
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+figcaption {
+  font-size: 10px;
+  text-align: center;
+}
+
+section#featured-property p {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+section#details div{
+  display: block;
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
