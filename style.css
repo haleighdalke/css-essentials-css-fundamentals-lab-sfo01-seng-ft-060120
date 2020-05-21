@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
-body {
+header {
   align-content: center;
+}
+
+img {
+  align-self: auto;
 }
