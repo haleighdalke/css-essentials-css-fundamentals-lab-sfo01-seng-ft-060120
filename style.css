@@ -11,3 +11,7 @@ header {
 img {
   align-self: auto;
 }
+
+#featured-property {
+  align: center;
+}
